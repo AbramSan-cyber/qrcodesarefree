@@ -1,0 +1,92 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body{
+  background-color: blanchedalmond;
+}
+
+.main-banner{
+  margin: 0 auto;
+  width: 1200px;
+  height: 400px;
+  background-color: azure;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-banner .imgban{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+
+}
+
+
+.main-banner #imgban3{
+  background-image: url(images/3dCubes1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.main-banner #imgban2{
+  background-image: url(images/circuitQR1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+.main-banner #imgban1{
+  background-image: url(images/qrDragon2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.imgbanbtn {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 4px;
+  position: absolute;
+  top: 180px;
+  z-index: 2000;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.imgbanbtn:hover {
+
+  opacity: 0.9;
+  
+}
+
+.imgbanbtn-prev {
+  left: 5px;
+  background-image: url("images/arrwleft2.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.imgbanbtn-next {
+  right: 5px;
+  background-image: url("images/arrwright1.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
